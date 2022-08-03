@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,35 @@
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
+    <header>
+        <div id="logo">
+            <img src="Images/Panda-icon.jpg" alt="" id="logo-img">
+            <h2 style="color: white; display: inline;">PANDA BANK</h2>
+        </div>
+
+        <nav class="nav">
+            <a class="nav-link active menu" aria-current="page" href="#">HOME</a>
+            <a class="nav-link menu" href="#">NEWS</a>
+            <a class="nav-link menu" href="#">CONTACT</a>
+            <a class="nav-link menu">ABOUT US</a>
+        </nav>
+    </header>
+
     <div id="login-area">
-        <h1>Welcome to Panda Bank</h1>
+        <h1 style="color: white;">Welcome to Panda Bank</h1>
+        <br>
         <div class="submit-area">
             <input type="text" class="form-control" placeholder="Enter your username">
+            <br>
             <input type="password" class="form-control" placeholder="Enter your password">
-            <button class= "btn btn-success">Login</button>
+            <br>
+            <button class="btn btn-success" id="loginBtn">Login</button>
         </div>
     </div>
-    
+<script src = "JS/javascript.js"></script>
+<script src ="JS/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

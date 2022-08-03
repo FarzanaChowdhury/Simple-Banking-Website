@@ -1,13 +1,40 @@
-body{
-    background-image: url('Images/Panda-bg.jpg');
+ body {
+     background: url(../Images/Panda-bg.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+ }
+
+ header {
+     background-color: black;
+     padding: 5px;
+ }
+#logo-img{
+    width : 50px;
 }
-#login-area{
-    width: 40%;
-    align-self: center;
-    border: solid 2px white;
-    background-color: rgba(63, 66, 66, 0.418);
-    margin : auto;
+.menu{
+    color: aliceblue;
+    font-size: 1.2rem;
 }
-.input{
-    padding: 8px;
-}
+ #login-area {
+     width: 40%;
+     border: solid 2px white;
+     background-color: rgba(37, 37, 37, 0.418);
+     padding: 10px;
+     margin: 0;
+     position: absolute;
+     /* Vertically centered */
+     top: 40%;
+     transform: translateY(-40%);
+     /* Horizontally Centered */
+     left : 50%;
+     transform : translateX(-50%);
+
+ }
+ .submit-area{
+    width : 85%;
+ }
+
+ .input {
+     margin: 25px;
+ }
