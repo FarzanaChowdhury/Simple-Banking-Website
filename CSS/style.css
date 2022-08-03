@@ -1,0 +1,13 @@
+body{
+    background-image: url('Images/Panda-bg.jpg');
+}
+#login-area{
+    width: 40%;
+    align-self: center;
+    border: solid 2px white;
+    background-color: rgba(63, 66, 66, 0.418);
+    margin : auto;
+}
+.input{
+    padding: 8px;
+}
